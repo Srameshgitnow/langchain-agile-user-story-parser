@@ -1,0 +1,20 @@
+python src/agile_user_story_parser.py
+The script includes a sample user_story_requirement:
+
+
+I want an option to stay logged in, so that i dont have to enter my credentials every time.
+It will print a JSON like:
+
+json
+
+{
+  "title": "Stay Logged In option",
+  "description": "As a user, I want a 'Remember me' or 'Stay logged in' option so I don't need to re-enter credentials every time.",
+  "acceptance_criteria_1": "Given I select 'Stay logged in', when I log in successfully, then my session persists across browser restarts.",
+  "acceptance_criteria_2": "Given inactivity policies, when the max idle time is exceeded, then the session is securely invalidated.",
+  "acceptance_criteria_3": "Given I manually sign out, when I log out, then the session is cleared and I must re-authenticate.",
+  "acceptance_criteria_4": "",
+  "acceptance_criteria_5": "",
+  "severity": "Medium",
+  "type": "feature"
+}
