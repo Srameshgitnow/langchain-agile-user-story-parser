@@ -21,14 +21,6 @@ Powered by **LangChain** `StructuredOutputParser` + **OpenAI** GPT-4o-mini for s
 
 ## 🧱 Project layout
 
-├─ src/
-│ └─ agile_user_story_parser.py # main script (your code)
-├─ examples/
-│ └─ sample_input.txt # optional input example
-├─ .env.example
-├─ requirements.txt
-├─ .gitignore
-└─ README.md
 
 ![alt text](image.png)
 
