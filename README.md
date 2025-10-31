@@ -30,7 +30,7 @@ Powered by **LangChain** `StructuredOutputParser` + **OpenAI** GPT-4o-mini for s
 ## 🔐 Setup
 
 1) **Clone & enter**
-```bash
+
 git clone https://github.com/<your-username>/langchain-agile-user-story-parser.git
 cd langchain-agile-user-story-parser
 
