@@ -18,12 +18,14 @@ Powered by **LangChain** `StructuredOutputParser` + **OpenAI** GPT-4o-mini for s
 - Expands multiple acceptance criteria into **separate fields** (AC1–AC5) and avoids comma-stuffed ACs.
 - Fills missing fields intelligently (e.g., constructs a brief `title` if not provided).
 
+---------------------------------------------------------------------------------
 
 ## 🧱 Project layout
 
 
 ![alt text](image.png)
 
+---------------------------------------------------------------------------------
 
 ## 🔐 Setup
 
@@ -56,6 +58,7 @@ Copy .env.example → .env and paste your key:
 OPENAI_API_KEY=your_openai_api_key_here
 If .env is missing, the script will securely prompt you once at runtime.
 
+---------------------------------------------------------------------------------
 
 ▶️ Run
 python src/agile_user_story_parser.py
@@ -87,7 +90,7 @@ Empty AC fields are left as "" when fewer than five are needed.
 
 If a user provides comma-separated ACs, the parser splits into separate criteria where possible.
 
--------------------------------------------------------------
+---------------------------------------------------------------------------------
 
 🧠 How it works
 
