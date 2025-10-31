@@ -20,6 +20,7 @@ Powered by **LangChain** `StructuredOutputParser` + **OpenAI** GPT-4o-mini for s
 
 
 ## 🧱 Project layout
+
 ├─ src/
 │ └─ agile_user_story_parser.py # main script (your code)
 ├─ examples/
@@ -29,6 +30,7 @@ Powered by **LangChain** `StructuredOutputParser` + **OpenAI** GPT-4o-mini for s
 ├─ .gitignore
 └─ README.md
 
+![alt text](image.png)
 
 
 ## 🔐 Setup
@@ -42,8 +44,6 @@ cd langchain-agile-user-story-parser
 
 2. Create venv (recommended)
 
-bash
-Copy code
 python -m venv .venv
 # macOS/Linux:
 source .venv/bin/activate
@@ -53,8 +53,6 @@ source .venv/bin/activate
 
 3. Install deps
 
-bash
-Copy code
 pip install -r requirements.txt
 
 
